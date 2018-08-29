@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Vessels",
+	"description": "This is a repository of vessels APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/vessels.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://vessels.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Spire Global",
+			"x-api-slug": "spire-global",
+			"description": "Spire Global, Inc. is an American private company specializing in data gathered from a network of small satellites.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/spire-logo.png",
+			"humanURL": "https://spire.com",
+			"baseURL": "https://ais.spire.com//",
+			"tags": "Vessels",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/vessels/master/_listings/spire-global/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NxtPort",
+			"x-api-slug": "nxtport",
+			"description": "NxtPort opens the gates to the Port of the future. This project is a milestone in the digitalization of logistics and cargo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg",
+			"humanURL": "https://www.nxtport.eu",
+			"baseURL": "https://api-sb.nxtport.eu//PortCallPlus/v1",
+			"tags": "Vessels",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/vessels/master/_listings/nxtport/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Vessels",
+	"include": [
+		{
+			"name": "Spire Global",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/vessels/master/_listings/spire-global/apis.yaml"
+		},
+		{
+			"name": "NxtPort",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/vessels/master/_listings/nxtport/apis.yaml"
+		}
+	]
+}

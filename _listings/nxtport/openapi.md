@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: NxtPort
 x-complete: 1
@@ -28,4 +27,3 @@ paths:
       - Shipping
       - Vessels
       - Ports
----
